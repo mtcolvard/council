@@ -10,6 +10,7 @@ export default function Home() {
       <div style={{ display: 'flex', flexDirection: 'column' }}>
         <Image
           alt="seeing is forgetting the name of the thing one sees"
+          priority
           // Importing an image will
           // automatically set the width and height
           src={Light_and_Space}
