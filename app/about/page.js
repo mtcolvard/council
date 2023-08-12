@@ -1,13 +1,15 @@
+
+'use client'
 import Link from 'next/link'
 import Image from 'next/image'
-import gabriellaPhotograph from '../public/profile/gabriella-photograph.webp'
-import Navbar from '../components/navbar.js'
+import gabriellaPhotograph from '../../public/gabriella-photograph.webp'
 
 
-export default function Profile() {
+import { usePathname } from 'next/navigation'
+
+export default function About() {
   return (
     <>
-      <Navbar />
       <div className="px-6 pt-12 md:px-8 md:pt-24 md:mx-48 ">
         <Image
           src={gabriellaPhotograph}

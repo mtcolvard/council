@@ -1,6 +1,7 @@
 import Image from 'next/image'
 import Link from 'next/link'
 import Light_and_Space from '../public/mainPhotoCaliforniaLight.webp'
+import About from './about/page'
 
 export default function Home() {
   return (
