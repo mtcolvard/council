@@ -15,24 +15,33 @@ export default function Home() {
           // automatically set the width and height
           src={Light_and_Space}
           sizes="100vw"
-        object-fit="cover"
-        overflow="hidden"
+          object-fit="cover"
+          overflow="hidden"
           // Make the image display full width
           style={{
             width: '100%',
             height: '100%',
           }}  
         />
-        <div className='text-center'>
-          <div className='inline-block'>
-            <ul>
-              <li>
-                <Link href="/about">Gabriella Furno</Link>
-              </li>
-            </ul>
+      <div className="sqs-slice-group">
+        <div className="sqs-slice"></div>
+          <div className="sqs-slice yui3-widget">
+            {/* <p class="" data-rte-preserve-empty="true" style={'white-space:pre-wrap;'}></p> */}
           </div>
+            <div className="responsive-wrapper">
+              <div className="sqs-slice" data-slice-type="custom-form"></div>
+                <div className="sqs-slice yui3-widget sqs-slice-buttons"></div>
+            </div>
+          <div className='inline-block'>
+          <ul>
+            <li>
+              <Link href="/about">Gabriella Furno</Link>
+            </li>
+          </ul>
         </div>
-     </div>
+        </div>
+      </div>
+
     </main>
   )
 }
