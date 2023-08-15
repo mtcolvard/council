@@ -1,30 +1,30 @@
-import { useState, useEffect } from 'react'
-import { debounce } from '../utilities/debounce.js'
+// import { useState, useEffect } from 'react'
+// import { debounce } from '../utilities/debounce.js'
 import Image from 'next/image'
 import Link from 'next/link'
 
 const Navbar = () => {
-  const [prevScrollPos, setPrevScrollPos] = useState(0)
-  const [visible, setVisible] = useState(true)
-  const [navActive, setNavActive] = useState(false)
-  const [worksActive, setWorksActive] = useState(false)
+  // const [prevScrollPos, setPrevScrollPos] = useState(0)
+  // const [visible, setVisible] = useState(true)
+  // const [navActive, setNavActive] = useState(false)
+  // const [worksActive, setWorksActive] = useState(false)
 
-  const handleScroll = debounce(() => {
-    const currentScrollPos = window.pageYOffset;
-    console.log(currentScrollPos, 'currentScrollPos')
-    console.log(prevScrollPos, 'prevScrollPos')
-    setVisible((prevScrollPos > currentScrollPos) || currentScrollPos < 10);
-    setPrevScrollPos(currentScrollPos);
-  }, 15);
+  // const handleScroll = debounce(() => {
+  //   const currentScrollPos = window.pageYOffset;
+  //   console.log(currentScrollPos, 'currentScrollPos')
+  //   console.log(prevScrollPos, 'prevScrollPos')
+  //   setVisible((prevScrollPos > currentScrollPos) || currentScrollPos < 10);
+  //   setPrevScrollPos(currentScrollPos);
+  // }, 15);
 
-  useEffect(() => {
-    window.addEventListener('scroll', handleScroll);
-    return () => window.removeEventListener('scroll', handleScroll);
-  }, [prevScrollPos, visible, handleScroll]);
+  // useEffect(() => {
+  //   window.addEventListener('scroll', handleScroll);
+  //   return () => window.removeEventListener('scroll', handleScroll);
+  // }, [prevScrollPos, visible, handleScroll]);
 
-  const navbarStyles = {
-    transition: 'top 0.6s'
-  }
+  // const navbarStyles = {
+  //   transition: 'top 0.6s'
+  // }
 
   // --font-family-serif: "Starling","Times New Roman",serif;
   //   --color-grey: #a6a6a6;
@@ -70,7 +70,7 @@ const Navbar = () => {
 
 
   return (
-    <header className="header flex fixed top-0 left-0 w-full z-100 h-12 md:h-24 px-2.5 md:px-8 items-center bg-white" style={{ ...navbarStyles, top: visible ? '0' : '-96px' }}>
+    <header className="header flex fixed top-0 left-0 w-full z-100 h-12 md:h-24 px-2.5 md:px-8 items-center bg-white">
       <div className="headerContainer flex leading-5 w-full items-baseline justify-between">
         <div className="headerLeft flex grow shrink basis-1/2 items-baseline">
           <button

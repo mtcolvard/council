@@ -65,15 +65,16 @@ const ImageArray = ({ imageObject }) => {
           <div className="text-base mt-4 md:m-0 md:pt-4">
             <div className="pictureCaptionMobile">
               <div className="md:hidden">
-                <div><span className="italic">{image.title}</span>{image.details}</div>
+                <div><span className="italic">{image.title}</span></div>
               </div>
               <div className="md:hidden">
-                <div>{image.material} {image.size}</div>
+                <div>{image.material} </div>
+                <div>{image.size}</div>
               </div>
             </div>
             <div className="pictureCapitionComputer">
               <div className="hidden md:block ">
-                <div><span className="italic">{image.title}</span>{image.details} {image.material}</div>
+                <div><span className="italic">{image.title}</span> {image.material}</div>
                 <div>{image.size}</div>
               </div>
             </div>

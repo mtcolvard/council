@@ -1,3 +1,5 @@
+"use client"
+
 import Image from 'next/image'
 import Link from 'next/link'
 import Light_and_Space from '../public/pandora_black_background.webp'
