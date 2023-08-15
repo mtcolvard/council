@@ -1,4 +1,4 @@
-"use client"
+
 
 import Image from 'next/image'
 import Link from 'next/link'
@@ -8,7 +8,7 @@ import About from './about/page'
 export default function Home() {
   return (
     // <main className="flex min-h-screen flex-col items-center justify-between p-24">
-    <main className='block box-border'>
+    <main className='block box-border bg-black'>
       <div className='relative text-center px-5 py-20'>
         <Image
           alt="seeing is forgetting the name of the thing one sees"
