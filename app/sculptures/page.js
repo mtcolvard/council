@@ -57,7 +57,7 @@ import metamorphose_three_quarters from '../../public/sculpture/metamorphose/met
 const Home = () => {
   const imageObject = [
     {
-      link: "/works/sculpture/sacrifice",
+      link: "/sacrifice",
       src: sacrifice_main_torso_three_quarters,
       alt: "Sacrifice: a 186cm tall aluminium sculpture of a strong, beautiful woman with her hands outstretched",
       title: 'Sacrifice, ',
