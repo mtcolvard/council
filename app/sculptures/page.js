@@ -68,7 +68,7 @@ const Home = () => {
       width: '100%'
     },
     {
-      link: "/works/sculpture/infinity",
+      link: "/infinity",
       src: infinityBackThreeQuarters,
       alt: "Infinity: a 218 cm tall aluminium sculpture of a Nigerian man crouching with hands outstretched",
       title: 'Infinity, ',

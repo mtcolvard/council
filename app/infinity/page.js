@@ -71,8 +71,7 @@ const Infinity = () => {
       size: '218 x 200 cm',
       style: 'regular',
       width: '100%'
-    },
-    
+    },   
   ]
 
   return (
@@ -84,7 +83,7 @@ const Infinity = () => {
       <div className="site min-h-screen flex flex-col pt-4 px-4 md:pt-24 bg-white text-black">
         {/* <Navbar /> */}
         <div className="">
-          <h1 className="text-xl p-4"> Gabriella Furno </h1>
+          <h1 className="text-2xl p-4 justify-center"> Gabriella Furno </h1>
           {/* <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6">
             <path strokeLinecap="round" strokeLinejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
           </svg> */}
