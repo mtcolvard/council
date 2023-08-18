@@ -7,7 +7,7 @@ export default function Movement() {
   return (
     <>
       <Navigation/>
-      <h1 className="text-4xl">Let's get Lucky</h1>
+      <h1 className="text-4xl">Let's go get Lucky</h1>
     </>
   )
 }

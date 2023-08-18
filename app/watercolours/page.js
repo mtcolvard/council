@@ -9,7 +9,7 @@ export default function Watercolours() {
       {/* <Header /> */}
       <Navigation />
 
-      <h1 className="text-4xl">Let's get Lucky</h1>
+      <h1 className="text-4xl">Lassen dir get Lucky</h1>
     </>
   )
 }
