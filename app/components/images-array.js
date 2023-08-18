@@ -12,6 +12,23 @@ const ImageArray = ({ imageObject }) => {
       <div className="content "
         key={i}
       >
+        <div className="text-base mt-4 md:m-0 md:pt-4">
+          <div className="pictureCaptionMobile">
+            <div className="md:hidden">
+              <div><span className="italic">{image.title}</span></div>
+            </div>
+            <div className="md:hidden">
+              <div>{image.material} </div>
+              <div>{image.size}</div>
+            </div>
+          </div>
+          <div className="pictureCapitionComputer">
+            <div className="hidden md:block ">
+              <div><span className="italic">{image.title}</span> {image.material}</div>
+              <div>{image.size}</div>
+            </div>
+          </div>
+        </div>
         <div className="mb-16">
           <Link href={image.link}>
             {i === 0 && image.style === 'regular' &&
@@ -62,23 +79,7 @@ const ImageArray = ({ imageObject }) => {
             }
 
           </Link>
-          <div className="text-base mt-4 md:m-0 md:pt-4">
-            <div className="pictureCaptionMobile">
-              <div className="md:hidden">
-                <div><span className="italic">{image.title}</span></div>
-              </div>
-              <div className="md:hidden">
-                <div>{image.material} </div>
-                <div>{image.size}</div>
-              </div>
-            </div>
-            <div className="pictureCapitionComputer">
-              <div className="hidden md:block ">
-                <div><span className="italic">{image.title}</span> {image.material}</div>
-                <div>{image.size}</div>
-              </div>
-            </div>
-          </div>
+          
         </div>
       </div>
     )
