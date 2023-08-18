@@ -4,13 +4,15 @@ import Image from 'next/image'
 import Link from 'next/link'
 // import Navbar from '../components/navbar.js'
 // import Footer from '../components/footer.js'
+// import Header from '../components/header.js'
+import Navigation from '../components/navigation.js'
 import ImageArray from '../components/images-array.js'
 
-import infinity_back_full from '../../public/sculpture/infinity/infinity_back_full.jpg'
-import infinity_back_three_quarters from '../../public/sculpture/infinity/infinity_back_three_quarters.jpg'
-import infinity_back_torso from '../../public/sculpture/infinity/infinity_back_torso.jpg'
-import infinity_full from '../../public/sculpture/infinity/infinity_full.jpg'
-import infinity_torso from '../../public/sculpture/infinity/infinity_torso.jpg'
+import infinity_back_full from '../../public/Webp_images/infinity/infinity_back_full.webp'
+import infinity_back_three_quarters from '../../public/Webp_images/infinity/infinity_back_three_quarters.webp'
+import infinity_back_torso from '../../public/Webp_images/infinity/infinity_back_torso.webp'
+import infinity_full from '../../public/Webp_images/infinity/infinity_full.webp'
+import infinity_torso from '../../public/Webp_images/infinity/infinity_torso.webp'
 
 
 
@@ -80,10 +82,11 @@ const Infinity = () => {
         <title>Gabriella Furno</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
+        <Navigation/>
       <div className="site min-h-screen flex flex-col pt-4 px-4 md:pt-24 bg-white text-black">
         {/* <Navbar /> */}
+        {/* <Header /> */}
         <div className="">
-          <h1 className="text-2xl p-4 justify-center"> Gabriella Furno </h1>
           {/* <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6">
             <path strokeLinecap="round" strokeLinejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
           </svg> */}

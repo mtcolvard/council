@@ -1,7 +1,14 @@
+import Link from 'next/link'
+
+
 export default function Header() {
   return (
     <div>
-      <h1 className='text-3xl'>Gabriella Furno</h1>
+      <div className="object-center">
+        <Link href="/">
+          <h1 className='text-4xl'>Gabriella Furno</h1>
+        </Link>
+      </div>
     </div>
     )
 }

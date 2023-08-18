@@ -43,13 +43,5 @@ export default function Home() {
 }
 
 
-{/* <div className="sqs-slice-group left-5 right-5 max-w-4xl absolute  text-center bottom-52 w-30">
-  <div className="sqs-slice"></div>
-  {/* font style goes below */}
-  // <div className="sqs-slice yui3-widget block mb-7 font-base leading-6 max-w-xl relative" >
-    {/* <p class="" data-rte-preserve-empty="true" style={'white-space:pre-wrap;'}></p> */}
-  // </div>
-  // <div className="responsive-wrapper inline-block text-center">
-  //   <div className="sqs-slice relative" data-slice-type="custom-form"></div>
-  //   <div className="sqs-slice yui3-widget sqs-slice-buttons inline-block relative"></div>
-  // </div> */}
+
+  
