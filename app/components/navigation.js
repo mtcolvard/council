@@ -1,11 +1,17 @@
 import Link from 'next/link'
-import Header from './header'
+import MobileNav from './mobile-nav'
 
 export default function Navigation() {
   return (
-    <>
-    <Header/>
-      <div className='flex gap-4 justify-center'>
+    <>    
+    <MobileNav />
+      <div className="md:px-20 md:my-11 bg-white text-black hidden sm:block ">
+      <div>
+        <Link href="/">
+          <h1 className='md:my-2 text-lg md:text-3xl lg:text-5xl md:text-center'>Gabriella Furno</h1>
+        </Link>
+      </div>
+      <div className='md:my-2 text-lg md:flex md:gap-3 lg:gap-8 justify-center'>
           <div>
           <Link className='flex-1' href="/about">
             About
@@ -42,7 +48,9 @@ export default function Navigation() {
           </Link>
           </div>
       </div>
-    </>
+    </div>
+  </>
+
   )
 }
 

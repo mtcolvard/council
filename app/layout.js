@@ -1,17 +1,23 @@
 import './globals.css'
-import { Roboto_Mono } from 'next/font/google'
+import { Roboto } from 'next/font/google'
+import Head from 'next/head'
 
-const roboto = Roboto_Mono({ subsets: ['latin'] })
 
-export const metadata = {
-  title: 'Gabriella Lucky Furno',
-  description: 'Love ^ Fury',
-}
+// If loading a variable font, you don't need to specify the font weight
+const roboto = Roboto({
+  weight: ['400', '700'],
+  subsets: ['latin'],
+  display: 'swap',
+})
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en">
-      <body className={roboto.className}>{children}</body>
+    <html lang="en" className={roboto.className}>
+      <Head>
+        <title>Gabriella Lucky Furno</title>
+        <link rel="icon" href="/favicon.ico" />
+      </Head>
+      <body>{children}</body>
     </html>
   )
 }
