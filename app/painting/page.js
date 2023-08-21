@@ -7,7 +7,7 @@ export default function Painting() {
     <>
       <Navigation />
 
-      <h1 className="text-4xl">Let'sa get Lucky</h1>
+      <h1 className="text-4xl">Letsa get Lucky</h1>
     </>
   )
 }

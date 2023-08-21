@@ -9,7 +9,7 @@ export default function Worksonpaper() {
       {/* <Header /> */}
       <Navigation />
 
-    <h1 className="text-4xl">Yalla, swish, let's get Lucky</h1>
+    <h1 className="text-4xl">Yalla, swish, lets get Lucky</h1>
     </>
   )
 }
