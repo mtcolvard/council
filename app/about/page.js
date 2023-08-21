@@ -20,6 +20,8 @@ export default function About() {
         />
         <p className="mt-6 mb-6">Working on large forms is a necessity in itself. I think my drive or desire for creating these large works, connects me to a particular emotion hidden inside me; it’s an urge, a necessity, like feeling hungry.
         </p>
+        <p className="mt-6 mb-6">Working
+        </p>
         <p className="mb-6">What is the meaning of where we come from? The space around us, the universe, feels like an empty place without answers. But the rhythm that we have every day is the fact that time passes whatever happens. The empty space contrasts to the speed surrounding us. This particular tension is the search for movement in forms. Sculpture gives the emotion of anxiety about what is really happening around us.
         </p>
         <p className="mb-6">The human body, for me, is an incredible source of infinity of movement. It’s the connection to rhythm that inspires color for me, according to each unique shape. It can be abstract or figurative, it doesn’t matter, what is important for me, is to find the energy of the subject and materials, and to set these free in my work. Its a bit of a mystic approach.
