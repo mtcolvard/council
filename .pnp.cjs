@@ -30,7 +30,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageDependencies": [\
             ["@headlessui/react", "virtual:2c609c9edd5f0c43fb67feacb870ccacb4861423024c3ac2aeeded612f51c3a088f38f3f17e91970eda1415a0963727e30da5fa17d518a27448c7e6e7daf7eae#npm:1.7.16"],\
             ["@heroicons/react", "virtual:2c609c9edd5f0c43fb67feacb870ccacb4861423024c3ac2aeeded612f51c3a088f38f3f17e91970eda1415a0963727e30da5fa17d518a27448c7e6e7daf7eae#npm:2.0.18"],\
-            ["autoprefixer", "virtual:2c609c9edd5f0c43fb67feacb870ccacb4861423024c3ac2aeeded612f51c3a088f38f3f17e91970eda1415a0963727e30da5fa17d518a27448c7e6e7daf7eae#npm:10.4.14"],\
+            ["autoprefixer", "virtual:2c609c9edd5f0c43fb67feacb870ccacb4861423024c3ac2aeeded612f51c3a088f38f3f17e91970eda1415a0963727e30da5fa17d518a27448c7e6e7daf7eae#npm:10.4.15"],\
             ["eslint", "npm:8.47.0"],\
             ["eslint-config-next", "virtual:2c609c9edd5f0c43fb67feacb870ccacb4861423024c3ac2aeeded612f51c3a088f38f3f17e91970eda1415a0963727e30da5fa17d518a27448c7e6e7daf7eae#npm:13.4.13"],\
             ["next", "virtual:2c609c9edd5f0c43fb67feacb870ccacb4861423024c3ac2aeeded612f51c3a088f38f3f17e91970eda1415a0963727e30da5fa17d518a27448c7e6e7daf7eae#npm:13.4.13"],\
@@ -858,20 +858,20 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["autoprefixer", [\
-        ["npm:10.4.14", {\
-          "packageLocation": "./.yarn/cache/autoprefixer-npm-10.4.14-1e0b8c34fb-e9f18e664a.zip/node_modules/autoprefixer/",\
+        ["npm:10.4.15", {\
+          "packageLocation": "./.yarn/cache/autoprefixer-npm-10.4.15-f16a1e775d-d490b14fb0.zip/node_modules/autoprefixer/",\
           "packageDependencies": [\
-            ["autoprefixer", "npm:10.4.14"]\
+            ["autoprefixer", "npm:10.4.15"]\
           ],\
           "linkType": "SOFT"\
         }],\
-        ["virtual:2c609c9edd5f0c43fb67feacb870ccacb4861423024c3ac2aeeded612f51c3a088f38f3f17e91970eda1415a0963727e30da5fa17d518a27448c7e6e7daf7eae#npm:10.4.14", {\
-          "packageLocation": "./.yarn/__virtual__/autoprefixer-virtual-0cfaa0c593/0/cache/autoprefixer-npm-10.4.14-1e0b8c34fb-e9f18e664a.zip/node_modules/autoprefixer/",\
+        ["virtual:2c609c9edd5f0c43fb67feacb870ccacb4861423024c3ac2aeeded612f51c3a088f38f3f17e91970eda1415a0963727e30da5fa17d518a27448c7e6e7daf7eae#npm:10.4.15", {\
+          "packageLocation": "./.yarn/__virtual__/autoprefixer-virtual-c645b27ffd/0/cache/autoprefixer-npm-10.4.15-f16a1e775d-d490b14fb0.zip/node_modules/autoprefixer/",\
           "packageDependencies": [\
-            ["autoprefixer", "virtual:2c609c9edd5f0c43fb67feacb870ccacb4861423024c3ac2aeeded612f51c3a088f38f3f17e91970eda1415a0963727e30da5fa17d518a27448c7e6e7daf7eae#npm:10.4.14"],\
+            ["autoprefixer", "virtual:2c609c9edd5f0c43fb67feacb870ccacb4861423024c3ac2aeeded612f51c3a088f38f3f17e91970eda1415a0963727e30da5fa17d518a27448c7e6e7daf7eae#npm:10.4.15"],\
             ["@types/postcss", null],\
             ["browserslist", "npm:4.21.10"],\
-            ["caniuse-lite", "npm:1.0.30001519"],\
+            ["caniuse-lite", "npm:1.0.30001524"],\
             ["fraction.js", "npm:4.2.0"],\
             ["normalize-range", "npm:0.1.2"],\
             ["picocolors", "npm:1.0.0"],\
@@ -1040,6 +1040,13 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["caniuse-lite", "npm:1.0.30001519"]\
           ],\
           "linkType": "HARD"\
+        }],\
+        ["npm:1.0.30001524", {\
+          "packageLocation": "./.yarn/cache/caniuse-lite-npm-1.0.30001524-412c248e4d-35d662a62f.zip/node_modules/caniuse-lite/",\
+          "packageDependencies": [\
+            ["caniuse-lite", "npm:1.0.30001524"]\
+          ],\
+          "linkType": "HARD"\
         }]\
       ]],\
       ["chalk", [\
@@ -1159,7 +1166,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["council", "workspace:."],\
             ["@headlessui/react", "virtual:2c609c9edd5f0c43fb67feacb870ccacb4861423024c3ac2aeeded612f51c3a088f38f3f17e91970eda1415a0963727e30da5fa17d518a27448c7e6e7daf7eae#npm:1.7.16"],\
             ["@heroicons/react", "virtual:2c609c9edd5f0c43fb67feacb870ccacb4861423024c3ac2aeeded612f51c3a088f38f3f17e91970eda1415a0963727e30da5fa17d518a27448c7e6e7daf7eae#npm:2.0.18"],\
-            ["autoprefixer", "virtual:2c609c9edd5f0c43fb67feacb870ccacb4861423024c3ac2aeeded612f51c3a088f38f3f17e91970eda1415a0963727e30da5fa17d518a27448c7e6e7daf7eae#npm:10.4.14"],\
+            ["autoprefixer", "virtual:2c609c9edd5f0c43fb67feacb870ccacb4861423024c3ac2aeeded612f51c3a088f38f3f17e91970eda1415a0963727e30da5fa17d518a27448c7e6e7daf7eae#npm:10.4.15"],\
             ["eslint", "npm:8.47.0"],\
             ["eslint-config-next", "virtual:2c609c9edd5f0c43fb67feacb870ccacb4861423024c3ac2aeeded612f51c3a088f38f3f17e91970eda1415a0963727e30da5fa17d518a27448c7e6e7daf7eae#npm:13.4.13"],\
             ["next", "virtual:2c609c9edd5f0c43fb67feacb870ccacb4861423024c3ac2aeeded612f51c3a088f38f3f17e91970eda1415a0963727e30da5fa17d518a27448c7e6e7daf7eae#npm:13.4.13"],\

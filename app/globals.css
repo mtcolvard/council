@@ -17,7 +17,7 @@
   }
 } */
 
-body {
+/* body {
   color: rgb(var(--foreground-rgb));
   background: linear-gradient(
       to bottom,
@@ -25,14 +25,16 @@ body {
       rgb(var(--background-end-rgb))
     )
     rgb(var(--background-start-rgb));
-    /* border: solid;
-    border-width: 2px;
-    border-color: rgba(0, 0, 0, 0);
-    background-attachment: scroll;
-    background-clip: border-box;
-    background-color: rgba(0, 0, 0,);
-    background-repeat: repeat-y;
-    color: rgb(255, 255, 255); */
-}
+ 
+} */
 
-
+/* body {
+     border: solid;
+      border-width: 2px;
+      border-color: rgba(0, 0, 0, 0);
+      background-attachment: scroll;
+      background-clip: border-box;
+      background-color: rgba(0, 0, 0,);
+      background-repeat: repeat-y;
+      color: rgb(255, 255, 255);
+} */

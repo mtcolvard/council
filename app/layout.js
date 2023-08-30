@@ -10,6 +10,11 @@ const roboto = Roboto({
   display: 'swap',
 })
 
+export const metadata = {
+  title: 'Gabriella Furno',
+  description: 'This site presents: Sculpture, Painting, Works of Art, and other oeuvre created by Gabriella Furno',
+}
+
 export default function RootLayout({ children }) {
   return (
     <html lang="en" className={roboto.className}>
