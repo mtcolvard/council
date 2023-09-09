@@ -4,7 +4,8 @@ import Link from 'next/link'
 import Image from 'next/image'
 import Navigation from '../components/navigation'
 import gabriellaPhotograph from '../../public/gabriella-photograph.webp'
-import gabriellaPhotographTwo from '../../public/webp_images/about/about_two.webp'
+import gabriellaPhotographTwo from '../../public/Webp_images/about/about_two.webp'
+
 
 
 import { usePathname } from 'next/navigation'

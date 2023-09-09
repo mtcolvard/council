@@ -13,11 +13,11 @@ const ImageArray = ({ imageObject }) => {
         key={i}
       >
         <div className="text-base mt-4 md:m-0 md:pt-4">
-          <div className="pictureCaptionMobile text-sm md:hidden">
+          <div className="pictureCaptionMobile text-sm md:hidden mb-6">
               <div><span className="italic">{image.title}</span></div>
               <div>{image.size}{image.material}</div>
           </div>
-          <div className="pictureCapitionComputer">
+          <div className="pictureCapitionComputer mb-6">
             <div className="hidden md:block ">
               <div><span className="italic text-xl">{image.title}</span></div>
               <div>{image.size}{image.material}</div>
