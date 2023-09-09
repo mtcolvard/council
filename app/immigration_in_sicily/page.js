@@ -8,15 +8,15 @@ import ImageArray from '../components/images-array.js'
 // import Navbar from '../components/navbar.js'
 // import Footer from '../components/footer.js'
 
-import picture from '../../public/Webp_images/picture_folder/picture_name.webp'
+import left_head_close from '../../public/Webp_images/metamorphose/left_head_close.webp'
 
 const ImmigrationInSicily = () => {
   const imageObject = [
     {
       link: '',
-      src: 'picture',
-      alt: 'picture',
-      title: 'picture',
+      src: left_head_close,
+      alt: 'left_head_close',
+      title: 'Lucky',
       details: '',
       material: '',
       size: '',

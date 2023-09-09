@@ -9,14 +9,39 @@ import ImageArray from '../components/images-array.js'
 // import Footer from '../components/footer.js'
 
 import gabby_and_friend from '../../public/Webp_images/invisible_energy/gabby_and_friend.webp'
+import sacrifice_back from '../../public/Webp_images/sacrifice/sacrifice_back.webp'
+import left_head_close from '../../public/Webp_images/metamorphose/left_head_close.webp'
 
 const Exhibitions = () => {
   const imageObject = [
+   
     {
-      link: '/invisibleenergy',
+      link: '/aluminium-nudes-series',
+      src: sacrifice_back,
+      alt: 'sacrifice_back',
+      title: 'Aluminium Nude Series',
+      details: '',
+      material: '',
+      size: '',
+      style: 'regular',
+      width: '100%',
+    },
+    {
+      link: '/invisible-energy-series',
       src: gabby_and_friend,
       alt: 'gabby_and_friend',
-      title: 'Invisible Energy',
+      title: 'Invisible Energy Series',
+      details: '',
+      material: '',
+      size: '',
+      style: 'regular',
+      width: '100%',
+    },
+    {
+      link: '/immigrant-in-sicily',
+      src: left_head_close,
+      alt: 'left_head_close',
+      title: 'Immigrant in Sicily Series',
       details: '',
       material: '',
       size: '',

@@ -8,15 +8,15 @@ import ImageArray from '../components/images-array.js'
 // import Navbar from '../components/navbar.js'
 // import Footer from '../components/footer.js'
 
-import picture from '../../public/Webp_images/picture_folder/picture_name.webp'
+import sacrifice_back from '../../public/Webp_images/sacrifice/sacrifice_back.webp'
 
 const AluminiumNude = () => {
   const imageObject = [
     {
       link: '',
-      src: 'picture',
-      alt: 'picture',
-      title: 'picture',
+      src: 'sacrifice_back',
+      alt: 'sacrifice_back',
+      title: 'Sacrifice',
       details: '',
       material: '',
       size: '',
