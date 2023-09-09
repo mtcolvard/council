@@ -38,6 +38,12 @@ export default function MobileNav() {
                     Sculpture
                   </a>
                   <a
+                    href="/painting"
+                    className="inline-flex items-center border-b-2 border-transparent px-1 pt-1 text-sm font-medium text-gray-500 "
+                  >
+                    Painting
+                  </a>
+                  <a
                     href="/worksonpaper"
                     className="inline-flex items-center border-b-2 border-transparent px-1 pt-1 text-sm font-medium text-gray-500 "
                   >
@@ -48,12 +54,6 @@ export default function MobileNav() {
                     className="inline-flex items-center border-b-2 border-transparent px-1 pt-1 text-sm font-medium text-gray-500 "
                   >
                     Watercolours
-                  </a>
-                  <a
-                    href="/painting"
-                    className="inline-flex items-center border-b-2 border-transparent px-1 pt-1 text-sm font-medium text-gray-500 "
-                  >
-                    Painting
                   </a>
                   <a
                     href="movement"
@@ -122,6 +122,13 @@ export default function MobileNav() {
               </Disclosure.Button>
               <Disclosure.Button
                 as="a"
+                href="/painting"
+                className="block border-l-4 border-transparent py-2 pl-3 pr-4 text-base font-medium text-gray-500 hover:border-gray-300 hover:bg-gray-50 hover:text-gray-700"
+              >
+                Painting
+              </Disclosure.Button>
+              <Disclosure.Button
+                as="a"
                 href="/worksonpaper"
                 className="block border-l-4 border-transparent py-2 pl-3 pr-4 text-base font-medium text-gray-500 hover:border-gray-300 hover:bg-gray-50 hover:text-gray-700"
               >
@@ -134,13 +141,7 @@ export default function MobileNav() {
               >
                 Watercolours
               </Disclosure.Button>
-              <Disclosure.Button
-                as="a"
-                href="/painting"
-                className="block border-l-4 border-transparent py-2 pl-3 pr-4 text-base font-medium text-gray-500 hover:border-gray-300 hover:bg-gray-50 hover:text-gray-700"
-              >
-                Painting
-              </Disclosure.Button>
+              
               <Disclosure.Button
                 as="a"
                 href="/movement"

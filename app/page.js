@@ -3,7 +3,6 @@
 import Image from 'next/image'
 import Link from 'next/link'
 import pandora_black_background from '../public/pandora_black_background.webp'
-import About from './about/page'
 
 export default function Home() {
   return (
@@ -15,7 +14,7 @@ export default function Home() {
             <li className='leading-4 inline-block uppercase center'>
               <div className="border-2 border-white py-5 px-7 text-center leading-5 list-outside bg-scroll bg-clip-border bg-transparent bg-origin-padding">
                 <Link
-                  href="/sculpture-series">Gabriella Furno</Link>
+                  href="/sculpture">Gabriella Furno</Link>
               </div>
             </li>
           </ul>
@@ -33,10 +32,10 @@ export default function Home() {
           style={{
             width: '100%',
             height: '100%',
-          }}  
+          }}
         />
-            
-        </div>
+
+      </div>
       {/* </div> */}
 
     </main>
@@ -45,4 +44,3 @@ export default function Home() {
 
 
 
-  

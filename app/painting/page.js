@@ -19,7 +19,7 @@ const Painting = () => {
       details: '',
       material: '',
       size: '',
-      style: 'skinny',
+      style: 'regular',
       width: '100%'
     },
     {
@@ -30,7 +30,7 @@ const Painting = () => {
       details: '',
       material: '',
       size: '',
-      style: 'skinny',
+      style: 'regular',
       width: '100%'
     },
     {
@@ -41,7 +41,7 @@ const Painting = () => {
       details: '',
       material: '',
       size: '',
-      style: 'skinny',
+      style: 'regular',
       width: '100%'
     },
     {

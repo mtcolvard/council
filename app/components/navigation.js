@@ -18,9 +18,14 @@ export default function Navigation() {
           </Link>
           </div>
           <div>
-          <Link className='flex-1' href="/sculptures">
+          <Link className='flex-1' href="/sculpture">
             Sculpture
           </Link>
+          </div>
+          <div>
+            <Link className='flex-1' href="/painting">
+              Painting
+            </Link>
           </div>
           <div>
           <Link className='flex-1' href="/worksonpaper">
@@ -30,11 +35,6 @@ export default function Navigation() {
           <div>
           <Link className='flex-1' href="/watercolours">
             Watercolours
-          </Link>
-          </div>
-          <div>
-          <Link className='flex-1' href="/painting">
-            Painting
           </Link>
           </div>
           <div>

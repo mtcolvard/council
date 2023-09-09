@@ -14,6 +14,17 @@ import left_head_close from '../../public/Webp_images/metamorphose/left_head_clo
 
 const SculptureSeries = () => {
   const imageObject = [
+    {
+      link: '/invisibleenergy',
+      src: gabby_and_friend,
+      alt: 'gabby_and_friend',
+      title: 'Invisible Energy Series',
+      details: '',
+      material: '',
+      size: '',
+      style: 'regular',
+      width: '100%',
+    },
    
     {
       link: '/aluminium',
@@ -26,19 +37,9 @@ const SculptureSeries = () => {
       style: 'regular',
       width: '100%',
     },
+    
     {
-      link: '/invisibleenergy',
-      src: gabby_and_friend,
-      alt: 'gabby_and_friend',
-      title: 'Invisible Energy Series',
-      details: '',
-      material: '',
-      size: '',
-      style: 'regular',
-      width: '100%',
-    },
-    {
-      link: '/immigrant',
+      link: '/metamorphose',
       src: left_head_close,
       alt: 'left_head_close',
       title: 'Immigrant in Sicily Series',
@@ -55,11 +56,6 @@ const SculptureSeries = () => {
       <Navigation />
       <main className="">
         <div className="md:px-20 md:my-11 bg-white text-black hidden sm:block ">
-          <div>
-            <Link href="/">
-              <h1 className='text-lg md:text-xl lg:text-3xl  text-slate-500'>Sculpture Series</h1>
-            </Link>
-          </div>
         </div>
         <div className="box-border block px-5 md:px-16 ">
           <div className="leadImageContainer">
