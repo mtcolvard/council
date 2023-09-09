@@ -2,20 +2,30 @@
 
 import Image from 'next/image'
 import Link from 'next/link'
-import Light_and_Space from '../public/pandora_black_background.webp'
+import pandora_black_background from '../public/pandora_black_background.webp'
 import About from './about/page'
 
 export default function Home() {
   return (
     // <main className="flex min-h-screen flex-col items-center justify-between p-24">
     <main className='block box-border bg-black'>
-      <div className='relative text-center px-5 py-20'>
+      <div className='relative text-center'>
+        <div className='inline-block'>
+          <ul className='text-white font-normal block text-xl tracking-widest leading-5 list-disc'>
+            <li className='leading-4 inline-block uppercase center'>
+              <div className="border-2 border-white py-5 px-7 text-center leading-5 list-outside bg-scroll bg-clip-border bg-transparent bg-origin-padding">
+                <Link
+                  href="/sculptures">Gabriella Furno</Link>
+              </div>
+            </li>
+          </ul>
+        </div>
         <Image
-          alt="seeing is forgetting the name of the thing one sees"
+          alt="Pandora: a monumental, 210 cm sculpture on a pedestal of a beautiful Nigerian woman; cast in crimson coloured resin"
           priority
           // Importing an image will
           // automatically set the width and height
-          src={Light_and_Space}
+          src={pandora_black_background}
           // sizes="100vh"
           object-fit="cover"
           overflow="hidden"
@@ -25,16 +35,7 @@ export default function Home() {
             height: '100%',
           }}  
         />
-            <div className='inline-block'>
-              <ul className='text-white font-normal block text-xl tracking-widest leading-5 list-disc'>
-                <li className= 'leading-4 inline-block uppercase center'>
-                  <div className="border-2 border-white py-5 px-7 text-center leading-5 list-outside bg-scroll bg-clip-border bg-transparent bg-origin-padding">
-                  <Link
-                      href="/sculptures">Gabriella Furno</Link>
-                  </div>
-                </li>
-              </ul>
-          </div>
+            
         </div>
       {/* </div> */}
 

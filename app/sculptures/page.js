@@ -74,16 +74,41 @@ const Sculptures = () => {
 
   ]
 
+  // return (
+  //   <div className="bg-transparent">
+  //       <Navigation />
+  //     <div className="site min-h-screen flex flex-col mx-4 md:px-40  bg-white text-black">
+  //       {/* <div className="">
+  //         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6">
+  //           <path strokeLinecap="round" strokeLinejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+  //         </svg>
+  //       </div> */}
+  //       <main className="">
+  //         <div className="leadImageContainer">
+  //           <div className="featured ">
+  //             <ImageArray imageObject={imageObject.slice(0, 1)} />
+  //           </div>
+  //         </div>
+  //         <div className="content ">
+  //           <ImageArray imageObject={imageObject.slice(1)} />
+  //         </div>
+  //         {/* <Footer /> */}
+  //       </main>
+  //     </div>
+  //   </div>
+  // )
+
+
   return (
     <div className="bg-transparent">
         <Navigation />
-      <div className="site min-h-screen flex flex-col mx-4 md:px-40  bg-white text-black">
         {/* <div className="">
           <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6">
-            <path strokeLinecap="round" strokeLinejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+          <path strokeLinecap="round" strokeLinejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
           </svg>
         </div> */}
         <main className="">
+        <div className="box-border block px-5 md:px-16 ">
           <div className="leadImageContainer">
             <div className="featured ">
               <ImageArray imageObject={imageObject.slice(0, 1)} />
@@ -93,10 +118,16 @@ const Sculptures = () => {
             <ImageArray imageObject={imageObject.slice(1)} />
           </div>
           {/* <Footer /> */}
-        </main>
-      </div>
-    </div>
+        </div>
+    </main>
+  </div>
   )
+
+
+
+
+
+
 }
 
 export default Sculptures

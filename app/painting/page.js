@@ -9,7 +9,7 @@ import painting_2 from '../../public/Webp_images/painting/painting_2.webp'
 import painting_1 from '../../public/Webp_images/painting/painting_1.webp'
 
 
-const Sculptures = () => {
+const Painting = () => {
   const imageObject = [
     {
       link: '',
@@ -52,7 +52,7 @@ const Sculptures = () => {
       details: '',
       material: '',
       size: '',
-      style: 'skinny',
+      style: 'regular',
       width: '100%'
     },
   ]
@@ -82,6 +82,5 @@ const Sculptures = () => {
   )
 }
 
-export default Sculptures
+export default Painting
 
-// flex - [1_0_auto]
