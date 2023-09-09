@@ -4,6 +4,7 @@ import Link from 'next/link'
 import Image from 'next/image'
 import Navigation from '../components/navigation'
 import gabriellaPhotograph from '../../public/gabriella-photograph.webp'
+import gabriellaPhotographTwo from '../../public/webp_images/about/about_two.webp'
 
 
 import { usePathname } from 'next/navigation'
@@ -12,7 +13,7 @@ export default function About() {
   return (
     <>
       <Navigation/>
-      <div className="mx-4 md:px-40 ">
+      <div className="mx-4 mt-6 md:px-40 ">
         <hr className="mb-6"></hr>
         <div className="hidden sm:grid grid-cols-2">
           <div>
@@ -34,7 +35,7 @@ export default function About() {
           </div>
           <div className=" mt-6 pl-12">
             <Image
-            src={gabriellaPhotograph}
+            src={gabriellaPhotographTwo}
             alt="Photograph of the artist Gabriella Furno"
             height="750"
             />
@@ -43,7 +44,7 @@ export default function About() {
         <div className="sm:hidden">
           <div className=" mt-6">
             <Image
-              src={gabriellaPhotograph}
+              src={gabriellaPhotographTwo}
               alt="Photograph of the artist Gabriella Furno"
               height="500"
             />

@@ -15,10 +15,10 @@ const Painting = () => {
       link: '',
       src: painting_4,
       alt: '',
-      title: '',
+      title: 'Looking trough the horizon',
       details: '',
-      material: '',
-      size: '',
+      material: 'Acrylique on canvas',
+      size: '120 x 60 cm',
       style: 'regular',
       width: '100%'
     },
