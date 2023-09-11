@@ -18,7 +18,7 @@ const Movement = () => {
       details: '',
       material: '',
       size: '',
-      style: 'regular',
+      style: 'skinny',
       width: '100%'
     },
     {
@@ -29,7 +29,7 @@ const Movement = () => {
       details: '',
       material: '',
       size: '',
-      style: 'regular',
+      style: 'skinny',
       width: '100%'
     },
     {
@@ -40,7 +40,7 @@ const Movement = () => {
       details: '',
       material: '',
       size: '',
-      style: 'regular',
+      style: 'skinny',
       width: '100%'
     },
 
