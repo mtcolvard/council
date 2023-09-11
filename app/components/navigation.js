@@ -28,18 +28,13 @@ export default function Navigation() {
             </Link>
           </div>
           <div>
-          <Link className='flex-1' href="/worksonpaper">
-            Works on Paper
-          </Link>
-          </div>
-          <div>
-          <Link className='flex-1' href="/watercolours">
-            Watercolours
-          </Link>
-          </div>
-          <div>
           <Link className='flex-1' href="/movement">
             Movement
+          </Link>
+        </div>
+          <div>
+          <Link className='flex-1' href="/inthestudio">
+            In the Studio
           </Link>
         </div>
           <div>

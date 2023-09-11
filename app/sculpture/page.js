@@ -11,6 +11,8 @@ import ImageArray from '../components/images-array.js'
 import gabby_and_friend from '../../public/Webp_images/invisible_energy/gabby_and_friend.webp'
 import sacrifice_back from '../../public/Webp_images/sacrifice/sacrifice_back.webp'
 import left_head_close from '../../public/Webp_images/metamorphose/left_head_close.webp'
+import left from '../../public/Webp_images/black_lives/left.webp'
+import three_quarters from '../../public/Webp_images/earth_under_your_feet/three_quarters.webp'
 
 const SculptureSeries = () => {
   const imageObject = [
@@ -29,7 +31,7 @@ const SculptureSeries = () => {
     {
       link: '/aluminium',
       src: sacrifice_back,
-      alt: 'sacrifice_back',
+      alt: 'Aluminium Nude Series - Sacrifice',
       title: 'Aluminium Nude Series',
       details: '',
       material: '',
@@ -41,8 +43,30 @@ const SculptureSeries = () => {
     {
       link: '/metamorphose',
       src: left_head_close,
-      alt: 'left_head_close',
-      title: 'Immigrant in Sicily Series',
+      alt: 'Metamorphose Series - Resin Head',
+      title: 'Metamorphose',
+      details: '',
+      material: '',
+      size: '',
+      style: 'regular',
+      width: '100%',
+    },
+    {
+      link: '/blacklives',
+      src: left,
+      alt: 'blacklives Series - Resin Head',
+      title: 'The Immigrant in Sicily',
+      details: '',
+      material: '',
+      size: '',
+      style: 'regular',
+      width: '100%',
+    },
+    {
+      link: '/earth-under-your-feet',
+      src: three_quarters,
+      alt: 'Earth Under Your Feet - Giraffe',
+      title: 'Earth Under Your Feet',
       details: '',
       material: '',
       size: '',

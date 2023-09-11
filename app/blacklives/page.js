@@ -1,48 +1,44 @@
-// import type { NextPage } from 'next'
 import Image from 'next/image'
 import Link from 'next/link'
 import Navigation from '../components/navigation.js'
 import ImageArray from '../components/images-array.js'
 
-// import Header from '../components/header.js'
-// import Navbar from '../components/navbar.js'
-// import Footer from '../components/footer.js'
-
-import back_five_quarters from '../../public/Webp_images/black_lives/back_five_quarters.webp'
-import left_highlights from '../../public/Webp_images/black_lives/left_highlights.webp'
 import left from '../../public/Webp_images/black_lives/left.webp'
+import left_highlights from '../../public/Webp_images/black_lives/left_highlights.webp'
+import back_five_quarters from '../../public/Webp_images/black_lives/back_five_quarters.webp'
 
-const ImmigrantInSicily = () => {
+
+const BlackLives = () => {
   const imageObject = [
     {
-      link: '/immigrantinsicily',
+      link: '',
       src: left,
-      alt: 'left',
+      alt: '',
       title: 'Black Lives',
       details: '',
-      material: 'Resin',
+      material: '',
       size: '',
       style: 'regular',
       width: '100%'
     },
     {
-      link: '/immigrantinsicily',
+      link: '',
       src: left_highlights,
-      alt: 'left_highlights',
-      title: 'Black Lives',
+      alt: '',
+      title: '',
       details: '',
-      material: 'Resin',
+      material: '',
       size: '',
       style: 'regular',
       width: '100%'
     },
     {
-      link: '/immigrantinsicily',
+      link: '',
       src: back_five_quarters,
-      alt: 'back_five_quarters',
-      title: 'Black Lives',
+      alt: '',
+      title: '',
       details: '',
-      material: 'Resin',
+      material: '',
       size: '',
       style: 'regular',
       width: '100%'
@@ -52,8 +48,13 @@ const ImmigrantInSicily = () => {
   return (
     <div className="bg-transparent">
       <Navigation />
-      <main className="">
-        <div className="box-border block px-5 md:px-16 ">
+      <div className="site min-h-screen flex flex-col mx-4 md:px-40  bg-white text-black">
+        {/* <div className="">
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6">
+            <path strokeLinecap="round" strokeLinejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+          </svg>
+        </div> */}
+        <main className="">
           <div className="leadImageContainer">
             <div className="featured ">
               <ImageArray imageObject={imageObject.slice(0, 1)} />
@@ -63,17 +64,11 @@ const ImmigrantInSicily = () => {
             <ImageArray imageObject={imageObject.slice(1)} />
           </div>
           {/* <Footer /> */}
-        </div>
-      </main>
+        </main>
+      </div>
     </div>
   )
-
-
-
-
-
-
 }
 
-export default ImmigrantInSicily
+export default BlackLives
 

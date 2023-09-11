@@ -7,7 +7,7 @@ import pandora_black_background from '../public/pandora_black_background.webp'
 export default function Home() {
   return (
     // <main className="flex min-h-screen flex-col items-center justify-between p-24">
-    <main className='block box-border bg-black'>
+    <main className='block box-border bg-black align-center'>
       <div className='relative text-center'>
         <div className='inline-block'>
           <ul className='text-white font-normal block text-xl tracking-widest leading-5 list-disc'>

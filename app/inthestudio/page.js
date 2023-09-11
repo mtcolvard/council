@@ -3,16 +3,18 @@ import Link from 'next/link'
 import Navigation from '../components/navigation.js'
 import ImageArray from '../components/images-array.js'
 
-import front_close from '../../public/Webp_images/movement/front_close.webp'
-import side from '../../public/Webp_images/movement/side.webp'
-import in_progress from '../../public/Webp_images/movement/in_progress.webp'
+import one from '../../public/Webp_images/painting/one.webp'
+import two from '../../public/Webp_images/painting/two.webp'
+import three from '../../public/Webp_images/painting/three.webp'
+import thrree from '../../public/Webp_images/painting/thrree.webp'
+import thrrree from '../../public/Webp_images/painting/thrrree.webp'
 
 
-const Movement = () => {
+const Painting = () => {
   const imageObject = [
     {
       link: '',
-      src: front_close,
+      src: one,
       alt: '',
       title: '',
       details: '',
@@ -23,7 +25,7 @@ const Movement = () => {
     },
     {
       link: '',
-      src: side,
+      src: two,
       alt: '',
       title: '',
       details: '',
@@ -34,7 +36,7 @@ const Movement = () => {
     },
     {
       link: '',
-      src: in_progress,
+      src: three,
       alt: '',
       title: '',
       details: '',
@@ -43,7 +45,28 @@ const Movement = () => {
       style: 'regular',
       width: '100%'
     },
-
+    {
+      link: '',
+      src: thrree,
+      alt: '',
+      title: '',
+      details: '',
+      material: '',
+      size: '',
+      style: 'regular',
+      width: '100%'
+    },
+    {
+      link: '',
+      src: thrrree,
+      alt: '',
+      title: '',
+      details: '',
+      material: '',
+      size: '',
+      style: 'regular',
+      width: '100%'
+    },
   ]
 
   return (
@@ -71,5 +94,5 @@ const Movement = () => {
   )
 }
 
-export default Movement
+export default Painting
 

@@ -44,22 +44,16 @@ export default function MobileNav() {
                     Painting
                   </a>
                   <a
-                    href="/worksonpaper"
-                    className="inline-flex items-center border-b-2 border-transparent px-1 pt-1 text-sm font-medium text-gray-500 "
-                  >
-                    Works on Paper
-                  </a>
-                  <a
-                    href="/watercolourws"
-                    className="inline-flex items-center border-b-2 border-transparent px-1 pt-1 text-sm font-medium text-gray-500 "
-                  >
-                    Watercolours
-                  </a>
-                  <a
                     href="movement"
                     className="inline-flex items-center border-b-2 border-transparent px-1 pt-1 text-sm font-medium text-gray-500 "
                   >
                     Movement
+                  </a>
+                  <a
+                    href="inthestudio"
+                    className="inline-flex items-center border-b-2 border-transparent px-1 pt-1 text-sm font-medium text-gray-500 "
+                  >
+                    In the Studio
                   </a>
                   <a
                     href="/contact"
@@ -127,20 +121,6 @@ export default function MobileNav() {
               >
                 Painting
               </Disclosure.Button>
-              <Disclosure.Button
-                as="a"
-                href="/worksonpaper"
-                className="block border-l-4 border-transparent py-2 pl-3 pr-4 text-base font-medium text-gray-500 hover:border-gray-300 hover:bg-gray-50 hover:text-gray-700"
-              >
-                Works on Paper
-              </Disclosure.Button>
-              <Disclosure.Button
-                as="a"
-                href="/watercolours"
-                className="block border-l-4 border-transparent py-2 pl-3 pr-4 text-base font-medium text-gray-500 hover:border-gray-300 hover:bg-gray-50 hover:text-gray-700"
-              >
-                Watercolours
-              </Disclosure.Button>
               
               <Disclosure.Button
                 as="a"
@@ -148,6 +128,13 @@ export default function MobileNav() {
                 className="block border-l-4 border-transparent py-2 pl-3 pr-4 text-base font-medium text-gray-500 hover:border-gray-300 hover:bg-gray-50 hover:text-gray-700"
               >
                 Movement
+              </Disclosure.Button>
+              <Disclosure.Button
+                as="a"
+                href="/inthestudio"
+                className="block border-l-4 border-transparent py-2 pl-3 pr-4 text-base font-medium text-gray-500 hover:border-gray-300 hover:bg-gray-50 hover:text-gray-700"
+              >
+                In the Studio
               </Disclosure.Button>
               <Disclosure.Button
                 as="a"
