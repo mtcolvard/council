@@ -10,7 +10,7 @@ import front from '../../public/Webp_images/earth_under_your_feet/front.webp'
 import three_quarters from '../../public/Webp_images/earth_under_your_feet/three_quarters.webp'
 
 
-const Painting = () => {
+const EarthUnderYourFeet = () => {
   const imageObject = [
     {
       link: '',
@@ -94,5 +94,5 @@ const Painting = () => {
   )
 }
 
-export default Painting
+export default EarthUnderYourFeet
 

@@ -22,6 +22,8 @@ export default function Home() {
         </div>
         </div>
         <div className='absolute z-10'>
+          <Link
+            href="/sculpture">
         <Image
           alt="Pandora: a monumental, 210 cm sculpture on a pedestal of a beautiful Nigerian woman; cast in crimson coloured resin"
           priority
@@ -36,7 +38,8 @@ export default function Home() {
             width: '100%',
             height: '100%',
           }}
-        />
+            />
+            </Link>
         </div>
 
       </div>
