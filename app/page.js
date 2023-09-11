@@ -7,9 +7,10 @@ import pandora_black_background from '../public/pandora_black_background.webp'
 export default function Home() {
   return (
     // <main className="flex min-h-screen flex-col items-center justify-between p-24">
-    <main className='block box-border bg-black align-center'>
+    <main className='block box-border bg-black '>
+      <div>
+        <div className='object-center z-50'>
       <div className='relative text-center'>
-        <div className='inline-block'>
           <ul className='text-white font-normal block text-xl tracking-widest leading-5 list-disc'>
             <li className='leading-4 inline-block uppercase center'>
               <div className="border-2 border-white py-5 px-7 text-center leading-5 list-outside bg-scroll bg-clip-border bg-transparent bg-origin-padding">
@@ -19,6 +20,8 @@ export default function Home() {
             </li>
           </ul>
         </div>
+        </div>
+        <div className='absolute z-10'>
         <Image
           alt="Pandora: a monumental, 210 cm sculpture on a pedestal of a beautiful Nigerian woman; cast in crimson coloured resin"
           priority
@@ -34,9 +37,9 @@ export default function Home() {
             height: '100%',
           }}
         />
+        </div>
 
       </div>
-      {/* </div> */}
 
     </main>
   )

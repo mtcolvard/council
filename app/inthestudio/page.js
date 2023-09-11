@@ -3,14 +3,14 @@ import Link from 'next/link'
 import Navigation from '../components/navigation.js'
 import ImageArray from '../components/images-array.js'
 
-import one from '../../public/Webp_images/painting/one.webp'
-import two from '../../public/Webp_images/painting/two.webp'
-import three from '../../public/Webp_images/painting/three.webp'
-import thrree from '../../public/Webp_images/painting/thrree.webp'
-import thrrree from '../../public/Webp_images/painting/thrrree.webp'
+import one from '../../public/Webp_images/in_the_studio/one.webp'
+import two from '../../public/Webp_images/in_the_studio/two.webp'
+import three from '../../public/Webp_images/in_the_studio/three.webp'
+import thrree from '../../public/Webp_images/in_the_studio/thrree.webp'
+import thrrree from '../../public/Webp_images/in_the_studio/thrrree.webp'
 
 
-const Painting = () => {
+const InTheStudio = () => {
   const imageObject = [
     {
       link: '',
@@ -94,5 +94,5 @@ const Painting = () => {
   )
 }
 
-export default Painting
+export default InTheStudio
 

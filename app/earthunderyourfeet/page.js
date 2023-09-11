@@ -1,7 +1,7 @@
 import Image from 'next/image'
 import Link from 'next/link'
-import Navigation from '../compfullnts/navigation.js'
-import ImageArray from '../compfullnts/images-array.js'
+import Navigation from '../components/navigation.js'
+import ImageArray from '../components/images-array.js'
 
 import full from '../../public/Webp_images/earth_under_your_feet/full.webp'
 import right from '../../public/Webp_images/earth_under_your_feet/right.webp'
