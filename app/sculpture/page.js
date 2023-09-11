@@ -63,7 +63,7 @@ const SculptureSeries = () => {
       width: '100%',
     },
     {
-      link: '/earth-under-your-feet',
+      link: '/earthunderyourfeet',
       src: three_quarters,
       alt: 'Earth Under Your Feet - Giraffe',
       title: 'Earth Under Your Feet',

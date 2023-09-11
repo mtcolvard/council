@@ -22,7 +22,7 @@ import white_head_three_quarters from '../../public/Webp_images/metamorphose/whi
 const Metamorphose = () => {
   const imageObject = [
     {
-      link: "/metamorphose",
+      link: "",
       src: front_head_close,
       alt: "",
       title: 'Metamorphose, ',
@@ -33,7 +33,7 @@ const Metamorphose = () => {
       width: '100%'
     },
     {
-      link: "/metamorphose",
+      link: "",
       src: left_head_close,
       alt: "",
       title: 'Metamorphose, ',
@@ -44,7 +44,7 @@ const Metamorphose = () => {
       width: '100%'
     },
     {
-      link: "/metamorphose",
+      link: "",
       src: right_head_close,
       alt: "",
       title: 'Metamorphose, ',
@@ -55,7 +55,7 @@ const Metamorphose = () => {
       width: '100%'
     },
     {
-      link: "/metamorphose",
+      link: "",
       src: right_head_pillar,
       alt: "",
       title: 'Metamorphose, ',
@@ -66,7 +66,7 @@ const Metamorphose = () => {
       width: '100%'
     },
     {
-      link: "/metamorphose",
+      link: "",
       src: white_head_four_fifths,
       alt: "",
       title: 'Metamorphose, ',
@@ -77,7 +77,7 @@ const Metamorphose = () => {
       width: '100%'
     },
     {
-      link: "/metamorphose",
+      link: "",
       src: white_head_front,
       alt: "",
       title: 'Metamorphose, ',
@@ -88,7 +88,7 @@ const Metamorphose = () => {
       width: '100%'
     },
     {
-      link: "/metamorphose",
+      link: "",
       src: white_head_left,
       alt: "",
       title: 'Metamorphose, ',
@@ -99,7 +99,7 @@ const Metamorphose = () => {
       width: '100%'
     },
     {
-      link: "/metamorphose",
+      link: "",
       src: white_head_three_quarters,
       alt: "",
       title: 'Metamorphose, ',
