@@ -50,12 +50,17 @@ const Movement = () => {
     <div className="bg-transparent">
       <Navigation />
       <div className="site min-h-screen flex flex-col mx-4 md:px-40  bg-white text-black">
-        {/* <div className="">
-          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6">
-            <path strokeLinecap="round" strokeLinejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
-          </svg>
-        </div> */}
         <main className="">
+          <div className="text-base mt-4 md:m-0 md:pt-4">
+            <div className="pictureCaptionMobile text-sm md:hidden mb-6">
+              <div><span className="italic">Movement</span></div>
+            </div>
+            <div className="pictureCapitionComputer mb-6">
+              <div className="hidden md:block ">
+                <div><span className="italic text-3xl">Movement</span></div>
+              </div>
+            </div>
+          </div>
           <div className="leadImageContainer">
             <div className="featured ">
               <ImageArray imageObject={imageObject.slice(0, 1)} />
