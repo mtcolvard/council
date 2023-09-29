@@ -2,7 +2,6 @@
 import Link from 'next/link'
 import Image from 'next/image'
 import Navigation from '../components/navigation'
-import gabriellaPhotograph from '../../public/gabriella-photograph.webp'
 import gabriellaPhotographTwo from '../../public/Webp_images/about/about_two.webp'
 
 
@@ -17,7 +16,7 @@ export default function About() {
         <hr className="mb-6"></hr>
         <div className="hidden sm:grid grid-cols-2">
           <div>
-            <h2 className="mt-6 mb-6 "><span className="font-bold">Gabriella Furno</span> (b. tk, tk.)</h2>
+            <h2 className="mt-6 mb-6 "><span className="font-bold">Gabriella Furno</span> (b. Paris, 1986)</h2>
             <p className="mb-6">Working on large forms is a necessity in itself. I think my drive or desire for creating these large works, connects me to a particular emotion hidden inside me; it’s an urge, a necessity, like feeling hungry.
             </p>
             <p className="mb-6">What is the meaning of where we come from? The space around us, the universe, feels like an empty place without answers. But the rhythm that we have every day is the fact that time passes whatever happens. The empty space contrasts to the speed surrounding us. This particular tension is the search for movement in forms. Sculpture gives the emotion of anxiety about what is really happening around us.

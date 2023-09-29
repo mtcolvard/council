@@ -61,6 +61,13 @@ export default function Contact() {
               <p>Via Pacini, 113</p>
               <p>90143 Palermo</p>
             </div>
+            <h1 className="mt-20 mb-3 text-lg">Contact</h1>
+            <div>
+              <a href="tel:+393493267015">+39 349 3267015</a>
+            </div>
+            <div>
+              <a href="mailto:gabriellafurno.gf@gmail.com">gabriellafurno.gf@gmail.com</a>
+            </div>
           </div>
           
         </div>
@@ -83,6 +90,13 @@ export default function Contact() {
               <p>Via Pacini, 113</p>
               <p>90143 Palermo</p>
             </div>
+            <h1 className="mt-12 mb-1.5 text-lg">Contact</h1>
+            <div>
+              <a href="tel:+393493267015">+39 349 3267015</a>
+            </div>
+            <div>
+              <a href="mailto:gabriellafurno.gf@gmail.com">gabriellafurno.gf@gmail.com</a>
+            </div>
           </div>
 
         </div>
@@ -90,3 +104,4 @@ export default function Contact() {
     </>
   )
 }
+
