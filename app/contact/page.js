@@ -36,6 +36,8 @@ import gabriellaCarving from '../../public/gabriella-carving.webp'
 //   )
 // }
 
+
+
 export default function Contact() {
   return (
     <>
@@ -53,13 +55,13 @@ export default function Contact() {
           <div>
             <h1 className="mt-6 mb-3 text-lg">Studio Berlin</h1>
             <div>
-              <p>Grossgorschenstrasse 7</p>
-              <p>10827 Berlin</p>
+              <p>Hauptstrasse 48</p>
+              <p>13055 Berlin, Germany</p>
             </div>
             <h1 className="mt-12 mb-3 text-lg">Studio Palermo</h1>
             <div>
-              <p>Via Pacini, 113</p>
-              <p>90143 Palermo</p>
+              <p>Via Merlo 20</p>
+              <p>90133 Palermo, Italie</p>
             </div>
             <h1 className="mt-20 mb-3 text-lg">Contact</h1>
             <div>
