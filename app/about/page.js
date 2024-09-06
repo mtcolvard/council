@@ -27,7 +27,7 @@ export default function About() {
             </p>
             <p className="mb-6">In her creative process, she starts with real-life models, meticulously translating their forms into sculptures that are initially shaped in clay with a metal and wood structure, then cast in plaster, and finally transformed into materials like bronze or aluminum. Her two-dimensional works on canvas and paper serve as a bridge between the second and third dimensions, exploring the geometry of body movements with dynamic lines and vivid colors.
             </p>
-            <p className="mb-6">Gabriella Furno\'s recent paintings, characterized by a vibrant palette, synthesize the movement of dancers in space, capturing lines, gravity, and dynamics to build a sense of movement through color. Her art is an invitation to reflect on human life and experience, offering a vision of a more just and humane world.
+            <p className="mb-6">Gabriella Furnos recent paintings, characterized by a vibrant palette, synthesize the movement of dancers in space, capturing lines, gravity, and dynamics to build a sense of movement through color. Her art is an invitation to reflect on human life and experience, offering a vision of a more just and humane world.
             </p>
           </div>
           <div className=" mt-6 pl-12">
