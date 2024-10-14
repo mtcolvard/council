@@ -48,7 +48,7 @@ const SculptureSeries = () => {
       details: '',
       material: '',
       size: '',
-      style: 'regular',
+      style: 'skinny',
       width: '100%',
     },
     {
@@ -59,7 +59,7 @@ const SculptureSeries = () => {
       details: '',
       material: '',
       size: '',
-      style: 'regular',
+      style: 'skinny',
       width: '100%',
     },
     {
@@ -70,7 +70,7 @@ const SculptureSeries = () => {
       details: '',
       material: '',
       size: '',
-      style: 'regular',
+      style: 'skinny',
       width: '100%',
     },
   ]
