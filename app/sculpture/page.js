@@ -13,6 +13,7 @@ import sacrifice_back from '../../public/Webp_images/sacrifice/sacrifice_back.we
 import left_head_close from '../../public/Webp_images/metamorphose/left_head_close.webp'
 import left from '../../public/Webp_images/black_lives/left.webp'
 import three_quarters from '../../public/Webp_images/earth_under_your_feet/three_quarters.webp'
+import image_1 from '../../public/Webp_images/desespoir/1.webp'
 
 const SculptureSeries = () => {
   const imageObject = [
@@ -53,9 +54,20 @@ const SculptureSeries = () => {
     },
     {
       link: '/blacklives',
-      src: left,
+      src: image_1,
       alt: 'blacklives Series - Resin Head',
-      title: 'The Immigrant in Sicily',
+      title: 'Black Lives Matter',
+      details: '',
+      material: '',
+      size: '',
+      style: 'skinny',
+      width: '100%',
+    },
+    {
+      link: '/desespoir',
+      src: left,
+      alt: 'desespoir Series - Red Resin',
+      title: 'Desespoir',
       details: '',
       material: '',
       size: '',

@@ -29,7 +29,7 @@ const Metamorphose = () => {
       details: ', ',
       material: 'Resin,',
       size: '',
-      style: 'regular',
+      style: 'skinny',
       width: '100%'
     },
     {
@@ -40,7 +40,7 @@ const Metamorphose = () => {
       details: ', ',
       material: 'Resin,',
       size: '',
-      style: 'regular',
+      style: 'skinny',
       width: '100%'
     },
     {
@@ -51,7 +51,7 @@ const Metamorphose = () => {
       details: ', ',
       material: 'Resin,',
       size: '',
-      style: 'regular',
+      style: 'skinny',
       width: '100%'
     },
     {
@@ -62,7 +62,7 @@ const Metamorphose = () => {
       details: ', ',
       material: 'Resin,',
       size: '',
-      style: 'regular',
+      style: 'skinny',
       width: '100%'
     },
     {
@@ -73,7 +73,7 @@ const Metamorphose = () => {
       details: ', ',
       material: 'Resin,',
       size: '',
-      style: 'regular',
+      style: 'skinny',
       width: '100%'
     },
     {
@@ -84,7 +84,7 @@ const Metamorphose = () => {
       details: ', ',
       material: 'Resin,',
       size: '',
-      style: 'regular',
+      style: 'skinny',
       width: '100%'
     },
     {
@@ -95,7 +95,7 @@ const Metamorphose = () => {
       details: ', ',
       material: 'Resin,',
       size: '',
-      style: 'regular',
+      style: 'skinny',
       width: '100%'
     },
     {
@@ -106,7 +106,7 @@ const Metamorphose = () => {
       details: ', ',
       material: 'Resin,',
       size: '',
-      style: 'regular',
+      style: 'skinny',
       width: '100%'
     },
   ]
