@@ -8,130 +8,68 @@ import Link from 'next/link'
 import Navigation from '../components/navigation.js'
 import ImageArray from '../components/images-array.js'
 
-import pandora_back_three_quarters from '../../public/Webp_images/pandora/pandora_back_three_quarters.webp'
-import pandora_back_torso from '../../public/Webp_images/pandora/pandora_back_torso.webp'
-import pandora_back from '../../public/Webp_images/pandora/pandora_back.webp'
-import pandora_full_three_quarters from '../../public/Webp_images/pandora/pandora_full_three_quarters.webp'
-import pandora_head from '../../public/Webp_images/pandora/pandora_head.webp'
-import pandora_left_full from '../../public/Webp_images/pandora/pandora_left_full.webp'
-import pandora_left_torso from '../../public/Webp_images/pandora/pandora_left_torso.webp'
-import pandora_right from '../../public/Webp_images/pandora/pandora_right.webp'
+// import pandora_back_three_quarters from '../../public/Webp_images/pandora/pandora_back_three_quarters.webp'
+// import pandora_back_torso from '../../public/Webp_images/pandora/pandora_back_torso.webp'
+// import pandora_back from '../../public/Webp_images/pandora/pandora_back.webp'
+// import pandora_full_three_quarters from '../../public/Webp_images/pandora/pandora_full_three_quarters.webp'
+// import pandora_head from '../../public/Webp_images/pandora/pandora_head.webp'
+// import pandora_left_full from '../../public/Webp_images/pandora/pandora_left_full.webp'
+// import pandora_left_torso from '../../public/Webp_images/pandora/pandora_left_torso.webp'
+// import pandora_right from '../../public/Webp_images/pandora/pandora_right.webp'
+import image_2 from '../../public/Webp_images/infinity_resin/2.webp'
+import image_1 from '../../public/Webp_images/desespoir/1.webp'
+
 
 
 
 const ResinNudeSeries = () => {
   const imageObject = [
     {
-      link: "/pandora",
-      src: pandora_back_three_quarters,
+      link: "/desespoir",
+      src: image_1,
       alt: "tk.",
-      title: 'Pandora, ',
+      title: 'Desespoir ',
       details: 'tk., ',
-      material: 'Cast Aluminium,',
-      size: 'tk.',
+      material: 'Red Resin',
+      size: '',
       style: 'regular',
       width: '100%'
     },
     {
-      link: "/pandora",
-      src: pandora_back_torso,
+      link: "/infinityresin",
+      src: image_2,
       alt: "tk.",
-      title: 'Pandora, ',
+      title: 'Infinity ',
       details: 'tk., ',
-      material: 'Cast Aluminium,',
-      size: 'tk.',
+      material: 'Black Resin',
+      size: '',
       style: 'regular',
       width: '100%'
     },
-    {
-      link: "/pandora",
-      src: pandora_back,
-      alt: "tk.",
-      title: 'Pandora, ',
-      details: 'tk., ',
-      material: 'Cast Aluminium,',
-      size: 'tk.',
-      style: 'regular',
-      width: '100%'
-    },
-    {
-      link: "/pandora",
-      src: pandora_full_three_quarters,
-      alt: "tk.",
-      title: 'Pandora, ',
-      details: 'tk., ',
-      material: 'Cast Aluminium,',
-      size: 'tk.',
-      style: 'regular',
-      width: '100%'
-    },
-    {
-      link: "/pandora",
-      src: pandora_head,
-      alt: "tk.",
-      title: 'Pandora, ',
-      details: 'tk., ',
-      material: 'Cast Aluminium,',
-      size: 'tk.',
-      style: 'regular',
-      width: '100%'
-    },
-    {
-      link: "/pandora",
-      src: pandora_left_full,
-      alt: "tk.",
-      title: 'Pandora, ',
-      details: 'tk., ',
-      material: 'Cast Aluminium,',
-      size: 'tk.',
-      style: 'regular',
-      width: '100%'
-    },
-    {
-      link: "/pandora",
-      src: pandora_left_torso,
-      alt: "tk.",
-      title: 'Pandora, ',
-      details: 'tk., ',
-      material: 'Cast Aluminium,',
-      size: 'tk.',
-      style: 'regular',
-      width: '100%'
-    },
-    {
-      link: "/pandora",
-      src: pandora_right,
-      alt: "tk.",
-      title: 'Pandora, ',
-      details: 'tk., ',
-      material: 'Cast Aluminium,',
-      size: 'tk.',
-      style: 'regular',
-      width: '100%'
-    },
+ 
   ]
 
   return (
     <div className="bg-transparent">
-      <Head>
-        <title>Gabriella Furno</title>
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
-      <div className="site min-h-screen flex flex-col pt-4 px-4 md:pt-24 bg-white text-black">
-        {/* <Navbar /> */}
-        <Navigation/>
-        <div className="">
-          {/* <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6">
-            <path strokeLinecap="round" strokeLinejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
-          </svg> */}
-        </div>
-        <main className="flex-[1_0_auto] px-2.5 md:px-8 text-sm md:text-3xl">
+      <Navigation />
+      <div className="site min-h-screen flex flex-col mx-4 md:px-40  bg-white text-black">
+        <main className="">
+          <div className="text-base mt-4 md:m-0 md:pt-4">
+            <div className="pictureCaptionMobile text-sm md:hidden mb-6">
+              <div><span className="italic">Resin Nude Series</span></div>
+            </div>
+            <div className="pictureCapitionComputer mb-6">
+              <div className="hidden md:block ">
+                <div><span className="italic text-3xl">Resin Nude Series</span></div>
+              </div>
+            </div>
+          </div>
           <div className="leadImageContainer">
-            <div className="featured md:px-52">
+            <div className="featured ">
               <ImageArray imageObject={imageObject.slice(0, 1)} />
             </div>
           </div>
-          <div className="content md:px-52 ">
+          <div className="content ">
             <ImageArray imageObject={imageObject.slice(1)} />
           </div>
           {/* <Footer /> */}
@@ -142,3 +80,5 @@ const ResinNudeSeries = () => {
 }
 
 export default ResinNudeSeries
+
+

@@ -12,55 +12,54 @@ import image_2 from '../../public/Webp_images/desespoir/2.webp'
 
 const Desespoir = () => {
   const imageObject = [
+
     {
-      link: "/desespoir",
+      link: '',
       src: image_1,
       alt: '',
-      title: 'Desespoir,',
-      details: '2013, ',
-      material: ' Red Resin,',
-      size: '186 x 186 cm,',
+      title: 'Desespoir',
+      details: '',
+      material: 'Red Resin',
+      size: '',
       style: 'regular',
-      width: '100%',
-      imageFoldernumber: 1,
+      width: '100%'
     },
+
     {
-      link: "/desespoir",
+      link: '',
       src: image_2,
       alt: '',
       title: '',
       details: '',
       material: '',
       size: '',
-      style: 'regular',
-      width: '100%',
-      imageFoldernumber: 2,
+      style: 'skinny',
+      width: '100%'
     },
-
+    
   ]
 
   return (
     <div className="bg-transparent">
-      <Head>
-        <title>Gabriella Furno</title>
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
       <Navigation />
-      <div className="site min-h-screen flex flex-col pt-4 px-4 md:pt-24 bg-white text-black">
-        {/* <Navbar /> */}
-        {/* <Header /> */}
-        <div className="">
-          {/* <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6">
-            <path strokeLinecap="round" strokeLinejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
-          </svg> */}
-        </div>
-        <main className="flex-[1_0_auto] px-2.5 md:px-8 text-sm md:text-3xl">
+      <div className="site min-h-screen flex flex-col mx-4 md:px-40  bg-white text-black">
+        <main className="">
+          <div className="text-base mt-4 md:m-0 md:pt-4">
+            <div className="pictureCaptionMobile text-sm md:hidden mb-6">
+              <div><span className="italic"></span></div>
+            </div>
+            <div className="pictureCapitionComputer mb-6">
+              <div className="hidden md:block ">
+                <div><span className="italic text-3xl"></span></div>
+              </div>
+            </div>
+          </div>
           <div className="leadImageContainer">
-            <div className="featured md:px-52">
+            <div className="featured ">
               <ImageArray imageObject={imageObject.slice(0, 1)} />
             </div>
           </div>
-          <div className="content md:px-52 ">
+          <div className="content ">
             <ImageArray imageObject={imageObject.slice(1)} />
           </div>
           {/* <Footer /> */}
@@ -71,3 +70,4 @@ const Desespoir = () => {
 }
 
 export default Desespoir
+

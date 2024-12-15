@@ -32,7 +32,7 @@ export default function MobileNav() {
                     About
                   </a>
                   <a
-                    href="/sculptures"
+                    href="/sculpture"
                     className="inline-flex items-center border-b-2 border-transparent px-1 pt-1 text-sm font-medium text-gray-500 "
                   >
                     Sculpture
@@ -54,6 +54,12 @@ export default function MobileNav() {
                     className="inline-flex items-center border-b-2 border-transparent px-1 pt-1 text-sm font-medium text-gray-500 "
                   >
                     In the Studio
+                  </a>
+                  <a
+                    href="worksinprogress"
+                    className="inline-flex items-center border-b-2 border-transparent px-1 pt-1 text-sm font-medium text-gray-500 "
+                  >
+                    Works in Progress
                   </a>
                   <a
                     href="/contact"
@@ -109,7 +115,7 @@ export default function MobileNav() {
               </Disclosure.Button>
               <Disclosure.Button
                 as="a"
-                href="/sculptures"
+                href="/sculpture"
                 className="block border-l-4 border-transparent py-2 pl-3 pr-4 text-base font-medium text-gray-500 hover:border-gray-300 hover:bg-gray-50 hover:text-gray-700"
               >
                 Sculpture
@@ -135,6 +141,13 @@ export default function MobileNav() {
                 className="block border-l-4 border-transparent py-2 pl-3 pr-4 text-base font-medium text-gray-500 hover:border-gray-300 hover:bg-gray-50 hover:text-gray-700"
               >
                 In the Studio
+              </Disclosure.Button>
+              <Disclosure.Button
+                as="a"
+                href="/worksinprogress"
+                className="block border-l-4 border-transparent py-2 pl-3 pr-4 text-base font-medium text-gray-500 hover:border-gray-300 hover:bg-gray-50 hover:text-gray-700"
+              >
+                Works in Progress
               </Disclosure.Button>
               <Disclosure.Button
                 as="a"

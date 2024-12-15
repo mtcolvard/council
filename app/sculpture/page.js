@@ -14,6 +14,8 @@ import left_head_close from '../../public/Webp_images/metamorphose/left_head_clo
 import left from '../../public/Webp_images/black_lives/left.webp'
 import three_quarters from '../../public/Webp_images/earth_under_your_feet/three_quarters.webp'
 import desespoir_main from '../../public/Webp_images/desespoir/1.webp'
+import image_2 from '../../public/Webp_images/infinity_resin/2.webp'
+
 import expo_imersione_main from '../../public/Webp_images/expo_imersione/1.webp'
 
 const SculptureSeries = () => {
@@ -44,8 +46,8 @@ const SculptureSeries = () => {
     },
     {
       link: '/resinnudeseries',
-      src: desespoir_main,
-      alt: 'desespoir Series - Red Resin',
+      src: image_2,
+      alt: 'Infinity Series - Black Resin',
       title: 'Resin Nude Series',
       details: '',
       material: '',
@@ -54,7 +56,7 @@ const SculptureSeries = () => {
       width: '100%',
     },
     {
-      link: '/monumentalseries',
+      link: '/monumentalworks',
       src: three_quarters,
       alt: 'Earth Under Your Feet - Giraffe',
       title: 'Monumental Works',

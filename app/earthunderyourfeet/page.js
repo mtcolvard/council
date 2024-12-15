@@ -20,7 +20,7 @@ const EarthUnderYourFeet = () => {
       details: '',
       material: '',
       size: '',
-      style: 'regular',
+      style: 'skinny',
       width: '100%'
     },
     {
@@ -31,7 +31,7 @@ const EarthUnderYourFeet = () => {
       details: '',
       material: '',
       size: '',
-      style: 'regular',
+      style: 'skinny',
       width: '100%'
     },
     {
@@ -42,7 +42,7 @@ const EarthUnderYourFeet = () => {
       details: '',
       material: '',
       size: '',
-      style: 'regular',
+      style: 'skinny',
       width: '100%'
     },
     {
@@ -53,7 +53,7 @@ const EarthUnderYourFeet = () => {
       details: '',
       material: '',
       size: '',
-      style: 'regular',
+      style: 'skinny',
       width: '100%'
     },
     {
@@ -64,7 +64,7 @@ const EarthUnderYourFeet = () => {
       details: '',
       material: '',
       size: '',
-      style: 'regular',
+      style: 'skinny',
       width: '100%'
     },
   ]

@@ -8,33 +8,33 @@ import Link from 'next/link'
 import Navigation from '../components/navigation.js'
 import ImageArray from '../components/images-array.js'
 
-import image_1 from '../../public/Webp_images/black_lives_matter/1.webp'
-import image_2 from '../../public/Webp_images/metamorphose/left_head_close.webp'
+import image_1 from '../../public/Webp_images/the_immigrant_in_sicily/2.webp'
+import image_2 from '../../public/Webp_images/earth_under_your_feet/three_quarters.webp'
 
 
 
 
 
-const ResinBustSeries = () => {
+const MonumentalWorks = () => {
   const imageObject = [
     {
-      link: "/blacklivesmatter",
+      link: "/theimmigrantinsicily",
       src: image_1,
-      alt: "tk.",
-      title: 'Black Lives Matter ',
-      details: 'tk., ',
-      material: 'Black Resin',
+      alt: "The Immigrant in Sicily",
+      title: 'The Immigrant in Sicily',
+      details: '',
+      material: 'Mixed Resin',
       size: '',
-      style: 'skinny',
+      style: 'regular',
       width: '100%'
     },
     {
-      link: "/metamorphose",
+      link: "/earthunderyourfeet",
       src: image_2,
-      alt: "tk.",
-      title: 'Metamorphose ',
-      details: 'tk., ',
-      material: 'Seaglass Resin',
+      alt: "Earth Under Your Feet - Giraffe",
+      title: 'Earth Under Your Feet',
+      details: '',
+      material: 'Aluminum',
       size: '',
       style: 'skinny',
       width: '100%'
@@ -49,11 +49,11 @@ const ResinBustSeries = () => {
         <main className="">
           <div className="text-base mt-4 md:m-0 md:pt-4">
             <div className="pictureCaptionMobile text-sm md:hidden mb-6">
-              <div><span className="italic">Resin Bust Series</span></div>
+              <div><span className="italic">Monumental Works</span></div>
             </div>
             <div className="pictureCapitionComputer mb-6">
               <div className="hidden md:block ">
-                <div><span className="italic text-3xl">Resin Bust Series</span></div>
+                <div><span className="italic text-3xl">Monumental Works</span></div>
               </div>
             </div>
           </div>
@@ -72,6 +72,6 @@ const ResinBustSeries = () => {
   )
 }
 
-export default ResinBustSeries
+export default MonumentalWorks
 
 

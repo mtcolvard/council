@@ -3,18 +3,22 @@ import Link from 'next/link'
 import Navigation from '../components/navigation.js'
 import ImageArray from '../components/images-array.js'
 
-import image_1 from '../../public/Webp_images/infinity_resin/1.webp'
-import image_2 from '../../public/Webp_images/infinity_resin/2.webp'
-import image_3 from '../../public/Webp_images/infinity_resin/3.webp'
-import image_4 from '../../public/Webp_images/infinity_resin/4.webp'
-import image_5 from '../../public/Webp_images/infinity_resin/5.webp'
-import image_6 from '../../public/Webp_images/infinity_resin/6.webp'
-import image_7 from '../../public/Webp_images/infinity_resin/7.webp'
-import image_8 from '../../public/Webp_images/infinity_resin/8.webp'
-import image_9 from '../../public/Webp_images/infinity_resin/9.webp'
+import image_1 from '../../public/Webp_images/the_immigrant_in_sicily/1.webp'
+import image_2 from '../../public/Webp_images/the_immigrant_in_sicily/2.webp'
+import image_3 from '../../public/Webp_images/the_immigrant_in_sicily/3.webp'
+import image_4 from '../../public/Webp_images/the_immigrant_in_sicily/4.webp'
+import image_5 from '../../public/Webp_images/the_immigrant_in_sicily/5.webp'
+import image_6 from '../../public/Webp_images/the_immigrant_in_sicily/6.webp'
+import image_7 from '../../public/Webp_images/the_immigrant_in_sicily/7.webp'
+import image_8 from '../../public/Webp_images/the_immigrant_in_sicily/8.webp'
+import image_10 from '../../public/Webp_images/the_immigrant_in_sicily/10.webp'
+import image_11 from '../../public/Webp_images/the_immigrant_in_sicily/11.webp'
+import image_12 from '../../public/Webp_images/the_immigrant_in_sicily/12.webp'
+import image_13 from '../../public/Webp_images/the_immigrant_in_sicily/13.webp'
+import image_14 from '../../public/Webp_images/the_immigrant_in_sicily/14.webp'
 
 
-const InfinityResin = () => {
+const TheImmigrantInSicily = () => {
   const imageObject = [
 
     {
@@ -25,21 +29,22 @@ const InfinityResin = () => {
       details: '',
       material: '',
       size: '',
-      style: 'regular',
+      style: 'skinny',
       width: '100%'
     },
-   
+
     {
       link: '',
-      src: image_3,
+      src: image_2,
       alt: '',
       title: '',
       details: '',
       material: '',
       size: '',
-      style: 'skinny',
+      style: 'regular',
       width: '100%'
     },
+    
     {
       link: '',
       src: image_4,
@@ -75,6 +80,17 @@ const InfinityResin = () => {
     },
     {
       link: '',
+      src: image_7,
+      alt: '',
+      title: '',
+      details: '',
+      material: '',
+      size: '',
+      style: 'regular',
+      width: '100%'
+    },
+    {
+      link: '',
       src: image_8,
       alt: '',
       title: '',
@@ -84,9 +100,10 @@ const InfinityResin = () => {
       style: 'regular',
       width: '100%'
     },
+    
     {
       link: '',
-      src: image_9,
+      src: image_10,
       alt: '',
       title: '',
       details: '',
@@ -97,7 +114,29 @@ const InfinityResin = () => {
     },
     {
       link: '',
-      src: image_7,
+      src: image_11,
+      alt: '',
+      title: '',
+      details: '',
+      material: '',
+      size: '',
+      style: 'regular',
+      width: '100%'
+    },
+    {
+      link: '',
+      src: image_12,
+      alt: '',
+      title: '',
+      details: '',
+      material: '',
+      size: '',
+      style: 'regular',
+      width: '100%'
+    },
+    {
+      link: '',
+      src: image_13,
       alt: '',
       title: '',
       details: '',
@@ -108,7 +147,7 @@ const InfinityResin = () => {
     },
     {
       link: '',
-      src: image_2,
+      src: image_14,
       alt: '',
       title: '',
       details: '',
@@ -117,7 +156,17 @@ const InfinityResin = () => {
       style: 'regular',
       width: '100%'
     },
-    
+    {
+      link: '',
+      src: image_3,
+      alt: '',
+      title: '',
+      details: '',
+      material: '',
+      size: '',
+      style: 'regular',
+      width: '100%'
+    },
 
 
   ]
@@ -129,11 +178,11 @@ const InfinityResin = () => {
         <main className="">
           <div className="text-base mt-4 md:m-0 md:pt-4">
             <div className="pictureCaptionMobile text-sm md:hidden mb-6">
-              <div><span className="italic">Infinity - Black Resin</span></div>
+              <div><span className="italic">The Immigrant in Sicily</span></div>
             </div>
             <div className="pictureCapitionComputer mb-6">
               <div className="hidden md:block ">
-                <div><span className="italic text-3xl">Infinity - Black Resin</span></div>
+                <div><span className="italic text-3xl">The Immigrant in Sicily</span></div>
               </div>
             </div>
           </div>
@@ -152,5 +201,5 @@ const InfinityResin = () => {
   )
 }
 
-export default InfinityResin
+export default TheImmigrantInSicily
 

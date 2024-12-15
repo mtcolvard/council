@@ -51,8 +51,18 @@ const AluminiumSeries = () => {
   return (
     <div className="bg-transparent">
       <Navigation />
-      <main className="">
-        <div className="box-border block px-5 md:px-16 ">
+      <div className="site min-h-screen flex flex-col mx-4 md:px-40  bg-white text-black">
+        <main className="">
+          <div className="text-base mt-4 md:m-0 md:pt-4">
+            <div className="pictureCaptionMobile text-sm md:hidden mb-6">
+              <div><span className="italic">Aluminum Nude Series</span></div>
+            </div>
+            <div className="pictureCapitionComputer mb-6">
+              <div className="hidden md:block ">
+                <div><span className="italic text-3xl">Aluminum Nude Series</span></div>
+              </div>
+            </div>
+          </div>
           <div className="leadImageContainer">
             <div className="featured ">
               <ImageArray imageObject={imageObject.slice(0, 1)} />
@@ -62,8 +72,8 @@ const AluminiumSeries = () => {
             <ImageArray imageObject={imageObject.slice(1)} />
           </div>
           {/* <Footer /> */}
-        </div>
-      </main>
+        </main>
+      </div>
     </div>
   )
 
