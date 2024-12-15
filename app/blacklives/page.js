@@ -3,44 +3,45 @@ import Link from 'next/link'
 import Navigation from '../components/navigation.js'
 import ImageArray from '../components/images-array.js'
 
-import left from '../../public/Webp_images/black_lives/left.webp'
-import left_highlights from '../../public/Webp_images/black_lives/left_highlights.webp'
-import back_five_quarters from '../../public/Webp_images/black_lives/back_five_quarters.webp'
+import image_1 from '../../public/Webp_images/black_lives_matter/1.webp'
+import image_2 from '../../public/Webp_images/black_lives_matter/2.webp'
+import image_3 from '../../public/Webp_images/black_lives_matter/3.webp'
+
 
 
 const BlackLives = () => {
   const imageObject = [
     {
       link: '',
-      src: left,
+      src: image_1,
       alt: '',
-      title: 'Black Lives',
+      title: 'Black Lives Matter',
       details: '',
       material: '',
       size: '',
-      style: 'regular',
+      style: 'skinny',
       width: '100%'
     },
     {
       link: '',
-      src: left_highlights,
+      src: image_2,
       alt: '',
       title: '',
       details: '',
       material: '',
       size: '',
-      style: 'regular',
+      style: 'skinny',
       width: '100%'
     },
     {
       link: '',
-      src: back_five_quarters,
+      src: image_3,
       alt: '',
       title: '',
       details: '',
       material: '',
       size: '',
-      style: 'regular',
+      style: 'skinny',
       width: '100%'
     },
   ]

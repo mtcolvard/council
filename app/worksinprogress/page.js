@@ -3,24 +3,21 @@ import Link from 'next/link'
 import Navigation from '../components/navigation.js'
 import ImageArray from '../components/images-array.js'
 
-import one from '../../public/Webp_images/in_the_studio/one.webp'
-import two from '../../public/Webp_images/in_the_studio/two.webp'
-import three from '../../public/Webp_images/in_the_studio/three.webp'
-import thrree from '../../public/Webp_images/in_the_studio/thrree.webp'
-import thrrree from '../../public/Webp_images/in_the_studio/thrrree.webp'
-import image_1 from '../../public/Webp_images/in_the_studio/1.webp'
-import image_2 from '../../public/Webp_images/in_the_studio/2.webp'
-import image_3 from '../../public/Webp_images/in_the_studio/3.webp'
-import image_4 from '../../public/Webp_images/in_the_studio/4.webp'
-import image_5 from '../../public/Webp_images/in_the_studio/5.webp'
-import image_6 from '../../public/Webp_images/in_the_studio/6.webp'
-import image_7 from '../../public/Webp_images/in_the_studio/7.webp'
-import image_8 from '../../public/Webp_images/in_the_studio/8.webp'
+import image_1 from '../../public/Webp_images/work_in_progress/1.webp'
+import image_2 from '../../public/Webp_images/work_in_progress/2.webp'
+import image_3 from '../../public/Webp_images/work_in_progress/3.webp'
+import image_4 from '../../public/Webp_images/work_in_progress/4.webp'
+import image_5 from '../../public/Webp_images/work_in_progress/5.webp'
+import image_6 from '../../public/Webp_images/work_in_progress/6.webp'
+import image_7 from '../../public/Webp_images/work_in_progress/7.webp'
+import image_8 from '../../public/Webp_images/work_in_progress/8.webp'
+import image_9 from '../../public/Webp_images/work_in_progress/9.webp'
+import image_10 from '../../public/Webp_images/work_in_progress/10.webp'
 
 
-const InTheStudio = () => {
+const WorksInProgress = () => {
   const imageObject = [
-   
+
     {
       link: '',
       src: image_1,
@@ -40,7 +37,7 @@ const InTheStudio = () => {
       details: '',
       material: '',
       size: '',
-      style: 'regular',
+      style: 'skinny',
       width: '100%'
     },
     {
@@ -51,7 +48,7 @@ const InTheStudio = () => {
       details: '',
       material: '',
       size: '',
-      style: 'skinny',
+      style: 'regular',
       width: '100%'
     },
     {
@@ -62,46 +59,9 @@ const InTheStudio = () => {
       details: '',
       material: '',
       size: '',
-      style: 'regular',
-      width: '100%'
-    },
-    {
-      link: '',
-      src: one,
-      alt: '',
-      title: '',
-      details: '',
-      material: '',
-      size: '',
       style: 'skinny',
       width: '100%'
     },
-    {
-      link: '',
-      src: two,
-      alt: '',
-      title: '',
-      details: '',
-      material: '',
-      size: '',
-      style: 'skinny',
-      width: '100%'
-    },
-
-    {
-      link: '',
-      src: thrree,
-      alt: '',
-      title: '',
-      details: '',
-      material: '',
-      size: '',
-      style: 'skinny',
-      width: '100%'
-    },
-   
-   
-   
     {
       link: '',
       src: image_5,
@@ -121,7 +81,7 @@ const InTheStudio = () => {
       details: '',
       material: '',
       size: '',
-      style: 'regular',
+      style: 'skinny',
       width: '100%'
     },
     {
@@ -148,7 +108,7 @@ const InTheStudio = () => {
     },
     {
       link: '',
-      src: thrrree,
+      src: image_9,
       alt: '',
       title: '',
       details: '',
@@ -159,15 +119,16 @@ const InTheStudio = () => {
     },
     {
       link: '',
-      src: three,
+      src: image_10,
       alt: '',
       title: '',
       details: '',
       material: '',
       size: '',
-      style: 'regular',
+      style: 'skinny',
       width: '100%'
     },
+    
   ]
 
   return (
@@ -177,11 +138,11 @@ const InTheStudio = () => {
         <main className="">
           <div className="text-base mt-4 md:m-0 md:pt-4">
             <div className="pictureCaptionMobile text-sm md:hidden mb-6">
-              <div><span className="italic">In the Studio</span></div>
+              <div><span className="italic">Works in Progress</span></div>
             </div>
             <div className="pictureCapitionComputer mb-6">
               <div className="hidden md:block ">
-                <div><span className="italic text-3xl">In the Studio</span></div>
+                <div><span className="italic text-3xl">Works in Progress</span></div>
               </div>
             </div>
           </div>
@@ -200,5 +161,5 @@ const InTheStudio = () => {
   )
 }
 
-export default InTheStudio
+export default WorksInProgress
 

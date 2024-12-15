@@ -6,36 +6,24 @@ import Link from 'next/link'
 import Navigation from '../components/navigation.js'
 import ImageArray from '../components/images-array.js'
 
-import image_1 from '../../public/Webp_images/desespoir/1.webp'
-import image_2 from '../../public/Webp_images/desespoir/2.webp'
+import image_1 from '../../public/Webp_images/expo_imersione/1.webp'
 
 
-const Desespoir = () => {
+const Expo_Imersione = () => {
   const imageObject = [
     {
-      link: "/desespoir",
+      link: "/expoimersione",
       src: image_1,
       alt: '',
-      title: 'Desespoir,',
-      details: '2013, ',
-      material: ' Red Resin,',
-      size: '186 x 186 cm,',
-      style: 'regular',
-      width: '100%',
-      imageFoldernumber: 1,
-    },
-    {
-      link: "/desespoir",
-      src: image_2,
-      alt: '',
-      title: '',
+      title: 'Desespoir and The Immigrant in Sicily,',
       details: '',
       material: '',
       size: '',
       style: 'regular',
       width: '100%',
-      imageFoldernumber: 2,
+      imageFoldernumber: 1,
     },
+    
 
   ]
 
@@ -70,4 +58,4 @@ const Desespoir = () => {
   )
 }
 
-export default Desespoir
+export default Expo_Imersione

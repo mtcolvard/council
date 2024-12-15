@@ -19,7 +19,7 @@ export default function Navigation() {
           </div>
           <div>
             <Link className='flex-1' href="/sculpture">
-              Sculpture
+              Sculpture Series
             </Link>
           </div>
           <div>
@@ -35,6 +35,11 @@ export default function Navigation() {
           <div>
             <Link className='flex-1' href="/inthestudio">
               In the Studio
+            </Link>
+          </div>
+          <div>
+            <Link className='flex-1' href="/worksinprogress">
+              Works in Progress
             </Link>
           </div>
           <div>

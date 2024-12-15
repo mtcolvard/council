@@ -1,7 +1,8 @@
 import Link from 'next/link'
 import Image from 'next/image'
 import Navigation from '../components/navigation'
-import gabriellaCarving from '../../public/gabriella-carving.webp'
+// import gabriellaCarving from '../../public/gabriella-carving.webp'
+import gabriellaAndLucky from '../../public/gabriella_and_lucky.webp'
 
 // export default function Contact() {
 //   return (
@@ -47,8 +48,8 @@ export default function Contact() {
         <div className="hidden sm:grid grid-cols-4">
           <div className=" mt-6 pr-12 col-span-3">
             <Image
-              src={gabriellaCarving}
-              alt="Gabriella shaping a large sculpture's head"
+              src={gabriellaAndLucky}
+              alt="Gabriella and Lucky looking rugged and fierce and soft and beautiful"
               height="500"
             />
           </div>
@@ -76,8 +77,8 @@ export default function Contact() {
         <div className="sm:hidden">
           <div className=" mt-6">
             <Image
-              src={gabriellaCarving}
-              alt="Gabriella shaping a large sculpture's head"
+              src={gabriellaAndLucky}
+              alt="Gabriella and Lucky looking rugged and fierce and soft and beautiful"
               height="500"
             />
           </div>

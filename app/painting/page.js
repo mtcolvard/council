@@ -18,7 +18,7 @@ const Painting = () => {
       title: 'Apparently there were an invisible',
       details: '',
       material: 'Acrylique on canvas',
-      size: '120 x 60 cm',
+      size: '120 x 60 cm, ',
       style: 'regular',
       width: '100%'
     },
@@ -29,7 +29,7 @@ const Painting = () => {
       title: 'My emotion my soul',
       details: '',
       material: 'Acrylique on canvas',
-      size: '120 x 60 cm',
+      size: '120 x 60 cm, ',
       style: 'regular',
       width: '100%'
     },
@@ -40,7 +40,7 @@ const Painting = () => {
       title: 'Meeting you for the first time',
       details: '',
       material: 'Acrylique on canvas',
-      size: '120 x 60 cm',
+      size: '120 x 60 cm, ',
       style: 'regular',
       width: '100%'
     },
@@ -51,7 +51,7 @@ const Painting = () => {
       title: 'Trying to get out of my body',
       details: '',
       material: 'Acrylique on canvas',
-      size: '120 x 60 cm',
+      size: '120 x 60 cm, ',
       style: 'regular',
       width: '100%'
     },

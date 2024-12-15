@@ -2,7 +2,8 @@
 import Link from 'next/link'
 import Image from 'next/image'
 import Navigation from '../components/navigation'
-import gabriellaPhotographTwo from '../../public/Webp_images/about/about_two.webp'
+// import gabriellaPhotographTwo from '../../public/Webp_images/about/about_two.webp'
+import gabriellaPhotographOne from '../../public/Webp_images/about/gabby.webp'
 
 
 
@@ -32,7 +33,7 @@ export default function About() {
           </div>
           <div className=" mt-6 pl-12">
             <Image
-            src={gabriellaPhotographTwo}
+            src={gabriellaPhotographOne}
             alt="Photograph of the artist Gabriella Furno"
             height="750"
             />
@@ -41,7 +42,7 @@ export default function About() {
         <div className="sm:hidden">
           <div className=" mt-6">
             <Image
-              src={gabriellaPhotographTwo}
+              src={gabriellaPhotographOne}
               alt="Photograph of the artist Gabriella Furno"
               height="500"
             />
