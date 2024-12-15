@@ -13,7 +13,7 @@ const BlackLives = () => {
   const imageObject = [
     {
       link: '',
-      src: image_1,
+      src: image_2,
       alt: '',
       title: 'Black Lives Matter',
       details: '',
@@ -24,7 +24,7 @@ const BlackLives = () => {
     },
     {
       link: '',
-      src: image_2,
+      src: image_1,
       alt: '',
       title: '',
       details: '',
